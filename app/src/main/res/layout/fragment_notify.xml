@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView
+        android:id="@+id/reList"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_read"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@mipmap/noread"
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="@dimen/dp_100" />
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="@dimen/dp_18"
+            android:text="暂无消息通知"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:minHeight="?android:actionBarSize">
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:drawableLeft="@mipmap/icon"
+            android:focusableInTouchMode="true"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/colorblack"
+            android:textSize="16sp"
+            android:background="@drawable/tool"/>
+        <TextView
+            android:id="@+id/tool_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/dp_10"
+            android:text="取消"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </android.support.v7.widget.Toolbar>
+</RelativeLayout>

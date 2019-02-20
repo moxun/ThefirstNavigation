@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/news_img_head"
+        android:layout_width="@dimen/dp_88"
+        android:layout_height="@dimen/dp_88"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_8"
+        android:text="熟客LoL"
+        android:textColor="#3885af"
+        android:textSize="@dimen/dp_14"
+        app:layout_constraintStart_toEndOf="@+id/news_img_head"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/news_tv_username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_14"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_14"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_8"
+        android:text="正能量满满"
+        android:textColor="#a4a4a4"
+        android:textSize="@dimen/dp_15"
+        app:layout_constraintEnd_toStartOf="@+id/news_img_praise"
+        app:layout_constraintStart_toEndOf="@+id/news_img_head"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_150"
+        android:text="删除"
+        android:textColor="#a4a4a4"
+        android:textSize="@dimen/dp_11"
+        app:layout_constraintStart_toEndOf="@+id/news_tv_time"
+        app:layout_constraintTop_toTopOf="@+id/news_tv_time" />
+
+    <TextView
+        android:id="@+id/news_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_11"
+        android:text="10个小时"
+        android:textColor="#a4a4a4"
+        android:textSize="@dimen/dp_11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/news_img_head"
+        app:layout_constraintTop_toBottomOf="@+id/news_tv_username"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <ImageView
+        android:id="@+id/news_img_praise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_150"
+        android:layout_marginTop="@dimen/dp_8"
+        app:layout_constraintRight_toLeftOf="@+id/textView17"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+         />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:text="223"
+        android:layout_marginRight="@dimen/dp_12"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="#a4a4a4"
+        android:textSize="@dimen/dp_12"
+        app:layout_constraintTop_toTopOf="@+id/news_img_praise" />
+</android.support.constraint.ConstraintLayout>

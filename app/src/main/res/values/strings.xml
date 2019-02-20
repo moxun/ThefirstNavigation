@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ThefirstNavigation</string>
+    <string name="popupmenuText">正在加载</string>
+    <string name="headimage">头像上传</string>
+    <string name="username">请输入用户名</string>
+    <string name="pass">跳过</string>
+    <string name="phtoh">从相册中选择</string>
+    <string name="take">拍照</string>
+</resources>

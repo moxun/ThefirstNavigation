@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_42"
+        android:background="#FAFAFA">
+
+        <ImageView
+            android:id="@+id/img_finsh"
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:src="@mipmap/ic_back1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="设置"
+            android:textSize="@dimen/dp_18" />
+
+    </RelativeLayout>
+
+
+    -
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="#FAFAFA">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:text="个人设置"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/dp_17" />
+
+        <ImageView
+            android:id="@+id/img_xiao"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/my_in_sign" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/qingchuhuanc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="#FAFAFA">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:text="清楚缓存"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/dp_17" />
+
+        <TextView
+            android:id="@+id/tv_qing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="46dp"
+            android:text="3.75MB" />
+
+        <ImageView
+            android:id="@+id/img_xiao2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_17"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_20"
+            android:src="@mipmap/my_in_sign" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="#FAFAFA">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:text="字体大小"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/dp_17" />
+
+        <ImageView
+            android:id="@+id/img_xiao3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_17"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_20"
+            android:src="@mipmap/my_in_sign" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="#FAFAFA">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:text="仅限WIFI网络下载图片"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/dp_17" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/img_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_17"
+            android:theme="@style/MySwitchTheme"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_20"
+             />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="#FAFAFA">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:text="关于"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/dp_17" />
+
+        <ImageView
+            android:id="@+id/img_xiao4"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_17"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_20"
+            android:src="@mipmap/my_in_sign" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btu_tui"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_50"
+        android:background="@drawable/buttonshapeback"
+        android:text="退出登录"
+        android:textColor="#FAFAFA"
+        android:textSize="@dimen/dp_18" />
+
+</LinearLayout>

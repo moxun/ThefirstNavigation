@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/withe"
+    >
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <RadioGroup
+
+        android:layout_alignParentBottom="true"
+        android:id="@+id/navigation_radiogroup"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/withe"
+        android:layout_height="@dimen/dp_60">
+
+        <RadioButton
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/news"
+            android:checked="true"
+            android:drawableTop="@drawable/information"
+            android:button="@null"
+            android:text="咨询"
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/topic"
+            android:text="话题"
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/huati"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/friend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/friend"
+            android:gravity="center_horizontal"
+            android:text="圈子" />
+        <RadioButton
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/my"
+            android:gravity="center_horizontal"
+            android:text="我的"
+            android:drawableTop="@drawable/mypreseon"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="search_text_one">#e80c00</color>
+    <color name="search_text_two">#ff7b44</color>
+    <color name="search_text_three">#ffb08e</color>
+    <color name="backgroudwrite">#ffffff</color>
+    <color name="login_text_back">#55222222</color>
+    <color name="backgroud_select">#f4f5f7</color>
+    <color name="colorBlue">#3885af</color>
+    <color name="colorblack">#222222</color>
+    <color name="color_gray">#a4a4a4</color>
+    <color name="colorccccc">#ffffff</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#D53D3C</color>
+    <color name="popupmenubackgroud">#55000000</color>
+    <color name="withe">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colo">#FF4081</color>
+    <color name="buttoncolor">#EAEAEA</color>
+    <color name="buttoncolorhigh">#FF0000</color>
+    <color name="sourceColor">#A4A4A4</color>
+    <color name="titleColor">#222222</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBackground">#EEEEEE</color>
+    <color name="colorPink">#FDACAC</color>
+    <color name="colorRed">#D53D3C</color>
+    <color name="colorBlack">#000000</color>
+    <color name="textColorBlack">#2E2E2E</color>
+    <color name="titleBlue">#3885AF</color>
+    <color name="layout">#FAFAFA</color>
+    <color name="view">#F1F1F1</color>
+    <color name="my">#2E2E2E</color>
+    <color name="default_color">#EEEEEE</color>
+    <color name="gray">#EEEEEE</color>
+    <color name="black_theme">#222222</color>
+    <color name="grey_theme">#F2F6F7</color>
+    <color name="red_theme">#d53d3c</color>
+    <color name="red">#DB5959</color>
+    <color name="blue_theme">#3885af</color>
+    <color name="green_theme">#1AAC19</color>
+    <color name="splash_bar">#3F71CC</color>
+    <color name="popup_bg">#8f000000</color>
+    <color name="bg_focus">#DDDDDD</color>
+
+</resources>

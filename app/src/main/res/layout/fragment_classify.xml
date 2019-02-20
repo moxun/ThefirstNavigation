@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_35"
+        android:background="@color/withe"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="@dimen/dp_290"
+            android:layout_height="@dimen/dp_35">
+
+            <EditText
+                android:id="@+id/item_search"
+                android:layout_width="@dimen/dp_290"
+                android:layout_height="@dimen/dp_25"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:background="@drawable/classf"
+                android:cursorVisible="true"
+                android:drawableLeft="@mipmap/icon"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="请输入关键词搜索"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/colorblack"
+                android:textCursorDrawable="@null"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/text_no"
+                android:layout_width="@dimen/dp_18"
+                android:layout_height="@dimen/dp_18"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_260"
+                android:src="@drawable/classx" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_sousuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:text="搜索"
+            android:textColor="@color/colorBlue" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="@color/bg_focus" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_10"
+        android:background="@color/backgroud_select" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="@color/bg_focus" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_35">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="热门分类标签"
+            android:textColor="@color/colorblack" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="@color/bg_focus" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/item_recy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/item_searc"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

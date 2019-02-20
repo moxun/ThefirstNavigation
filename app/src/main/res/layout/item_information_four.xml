@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_220"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_60">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorblack"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="中国无人机产业创新联盟成立大会即将召开"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/dp_350"
+            android:layout_height="@dimen/dp_120"
+            android:src="@color/color_gray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/image_top"
+                android:layout_width="@dimen/dp_35"
+                android:layout_height="@dimen/dp_35"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_gravity="center"
+                android:src="@drawable/news_topm"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_6"
+                android:layout_gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/color_gray"
+                android:text="央视新闻"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/color_gray"
+                android:text="0跟帖"/>
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="@dimen/dp_175"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/color_gray"
+                android:text="7分钟前"/>
+
+            <ImageView
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="24dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

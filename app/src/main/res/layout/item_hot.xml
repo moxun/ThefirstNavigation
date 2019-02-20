@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/withe"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:text="我是你爹"
+        android:layout_margin="@dimen/dp_7"
+        android:id="@+id/item_hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_margin="@dimen/dp_7"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_20"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/jiantou"
+        android:id="@+id/item_imag" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_alignStart="@+id/item_hot"
+        android:layout_below="@+id/item_imag"
+        android:background="@color/bg_focus" />
+</RelativeLayout>
